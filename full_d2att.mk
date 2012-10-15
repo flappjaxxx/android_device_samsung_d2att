@@ -38,4 +38,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=flappjaxxx \
     ro.goo.rom=AOSPxXx-d2att \
     ro.goo.version=$(shell date -u +%Y%m%d) \
-    ro.goo.board=SGH-I717
+    ro.goo.board=SGH-I747
