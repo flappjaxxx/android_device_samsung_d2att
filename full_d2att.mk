@@ -32,3 +32,10 @@ PRODUCT_DEVICE := d2att
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SAMSUNG-SGH-I747
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.developerid=flappjaxxx \
+    ro.goo.developerid=flappjaxxx \
+    ro.goo.rom=AOSPxXx-d2att \
+    ro.goo.version=$(shell date -u +%Y%m%d) \
+    ro.goo.board=SGH-I717
